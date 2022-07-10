@@ -22,14 +22,16 @@ public class EndGameMenu : MonoBehaviour
         Time.timeScale = 0f;
     }
 
-    public void ReplayGame()
+    public void Replay()
     {
+        PlayerCollision.GameIsEnd = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene("Battle");
     }
 
     public void LoadMenuAtEnd()
     {
+        PlayerCollision.GameIsEnd = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene("Title");
     }
