@@ -1040,6 +1040,7 @@ GameObject:
   - component: {fileID: 1901194468}
   - component: {fileID: 1901194470}
   - component: {fileID: 1901194471}
+  - component: {fileID: 1901194472}
   m_Layer: 0
   m_Name: pngegg
   m_TagString: Untagged
@@ -1055,8 +1056,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901194464}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalPosition: {x: -0.06, y: 0.01, z: 10}
+  m_LocalScale: {x: 0.084300004, y: 0.084300004, z: 0.084300004}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1917594254}
@@ -1219,6 +1220,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49cf6542e8fd2eb489bdca97d3468ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1901194472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901194464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e638188f90ee40e41b8416e1fe9674a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 1917594253}
 --- !u!1 &1917594251
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,4 +1335,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dotPrefabX: {fileID: 3177745551641054247, guid: af368d80bffa1d54a9753d2b73e74413, type: 3}
   dotPrefabY: {fileID: 3177745551641054247, guid: c6e30099270611245a738ea713dd4ecd, type: 3}
+  dotPrefabNX: {fileID: 3177745551641054247, guid: 01b6a5a879013164085c2e7f94e99e86, type: 3}
+  dotPrefabNY: {fileID: 3177745551641054247, guid: 2641d9825ef5df74ea7f4cfc4201d38b, type: 3}
   respawnTime: 2
